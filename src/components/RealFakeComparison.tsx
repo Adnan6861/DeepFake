@@ -118,9 +118,6 @@ export const RealFakeComparison: React.FC<RealFakeComparisonProps> = ({
                     height={315}
                     opacity={isHeatmapActive ? 0.85 : 0}
                     colorMode="thermal"
-                    showBoundingBoxes={isHeatmapActive}
-                    showLandmarkMesh={isHeatmapActive}
-                    activeAnomalyId={null}
                   />
                 )}
 

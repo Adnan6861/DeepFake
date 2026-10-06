@@ -190,6 +190,8 @@ export default function App() {
             isAnalyzing={isAnalyzing}
             hasLoadedMedia={Boolean(mediaUrl)}
             onTriggerAnalysis={() => triggerAnalysis()}
+            loadedFileName={mediaName}
+            loadedFileSize={fileSizeFormatted}
           />
         </section>
 

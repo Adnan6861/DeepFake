@@ -159,12 +159,12 @@ export function buildExtractedFrames(
   isFake: boolean = true
 ): ExtractedFrame[] {
   const frameLabels = [
-    'Keyframe #08 · Baseline Facial Geometry',
-    'Keyframe #16 · Vowel Phoneme Articulation',
-    'Keyframe #24 · Blink Cycle & Pupil Reflection',
-    'Keyframe #32 · Plosive Consonant Transition',
-    'Keyframe #40 · Rapid Jaw Angle Shift',
-    'Keyframe #48 · Final Phoneme Recovery'
+    'Person Face Frame #01',
+    'Person Face Frame #02',
+    'Person Face Frame #03',
+    'Person Face Frame #04',
+    'Person Face Frame #05',
+    'Person Face Frame #06'
   ];
 
   return images.map((imgUrl, idx) => {

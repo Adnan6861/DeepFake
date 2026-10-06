@@ -213,10 +213,6 @@ export const MediaViewer: React.FC<MediaViewerProps> = ({
             height={dimensions.height}
             opacity={showHeatmap ? heatmapOpacity : 0}
             colorMode={colorMode}
-            showBoundingBoxes={showBoundingBoxes}
-            showLandmarkMesh={showLandmarkMesh}
-            activeAnomalyId={activeAnomalyId}
-            onSelectAnomaly={onSelectAnomaly}
           />
         )}
 
