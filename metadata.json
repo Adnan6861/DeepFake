@@ -1,0 +1,6 @@
+{
+  "name": "Veritas Deepfake Inspector",
+  "description": "Minimalist dark-themed deepfake detection platform with video and image analysis, real-time heat map visualizer, and confidence scoring.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
